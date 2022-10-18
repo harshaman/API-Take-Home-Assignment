@@ -26,5 +26,4 @@ Comments have been added in the main.js file using key @COMMENT before the remar
 server:
   port: <<AVAILABLE_PORT_NO>>
 4. Run the application as Spring Boot application.
-5. To "Export CSV" of the list of products in the inventory: Go the following endpoint in a browser: localhost:8080/export.html.
-6. Hit the Rest Endpoints described in the OpenApi3.yaml to test the application.
+5. Hit the Rest Endpoints described in the OpenApi3.yaml to test the application.
