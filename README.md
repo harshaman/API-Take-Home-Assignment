@@ -27,3 +27,8 @@ server:
   port: <<AVAILABLE_PORT_NO>>
 4. Run the application as Spring Boot application.
 5. Hit the Rest Endpoints described in the OpenApi3.yaml to test the application.
+
+# Deployment
+1. ``mvn clean package -DskipTests``
+1. Create a jar file using the following command: ``java -jar target/DictionaryAPI-0.0.1-SNAPSHOT.jar``. This will generate the jar file in the target directory of the application.
+2. Start the application as a service using nohup ``nohup java -jar target/DictionaryAPI-0.0.1-SNAPSHOT.jar &``
